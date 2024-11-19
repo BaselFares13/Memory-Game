@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>learn JavaScript</title>
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <!-- Main Css Style File -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="alert-overlay">
+            <div class="alert">
+                <h2>Game Over !</h2>
+                <button class="try-again">Try Again</button>
+            </div>
+        </div>
+        <div class="alert-overlay main">
+            <div class="alert">
+                <h4>Choose The Difficulty level:</h4>
+                <button class="hard">Hard</button>
+                <button class="normal">Normal</button>
+                <button class="easy">Easy</button>
+            </div>
+        </div>
+        <div class="game-container">
+            <aside>
+                <img class="logo" src="images/logo.png" alt="logo">
+                <h1>Flip for Treasure</h1>
+                <p  class="maximum-number-of-attempts">Maximum Number Of Attempts: <span>12</span></p>
+                <p class="current-number-of-attempts">Current Number Of Attempts: <span>12</span></p>
+                <button class="choose-difficulty">Choose Difficulty</button>
+            </aside>
+            <div class="game">
+                
+                <div class="card" data-number="1">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/luffy.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/ice.jpg" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="3">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/ked.jpg" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="4">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/law.jpg" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="5">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/nammi.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="6">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/shanks.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="7">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/ussob.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/zoro.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card" data-number="1">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/luffy.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/ice.jpg" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="3">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/ked.jpg" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="4">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/law.jpg" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="5">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/nammi.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="6">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/shanks.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="7">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/ussob.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-number="8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/card-front.png" alt="card-front">
+                        </div>
+                        <div class="card-back">
+                            <img src="images/zoro.png" alt="luffy-img">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
